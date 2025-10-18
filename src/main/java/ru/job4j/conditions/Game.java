@@ -10,8 +10,6 @@ public class Game {
         }
         if ("tetris".equals(name)) {
             System.out.println("Start - tetris");
-        } else {
-            System.out.println("another game");
         }
     }
 
