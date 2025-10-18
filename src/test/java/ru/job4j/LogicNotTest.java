@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+package ru.job4j.conditions;
 
 import org.junit.jupiter.api.Test;
 import ru.job4j.conditions.LogicNot;
