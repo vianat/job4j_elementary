@@ -13,7 +13,7 @@ class CounterTest {
         int start = 0;
         int finish = 5;
         int expected = 15;
-        int result = Counter.sum(start,finish);
+        int result = Counter.sum(start, finish);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -22,7 +22,7 @@ class CounterTest {
         int start = 10;
         int finish = 5;
         int expected = 0;
-        int result = Counter.sum(start,finish);
+        int result = Counter.sum(start, finish);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -31,7 +31,7 @@ class CounterTest {
         int start = 0;
         int finish = 10;
         int expected = 55;
-        int result = Counter.sum(start,finish);
+        int result = Counter.sum(start, finish);
         assertThat(result).isEqualTo(expected);
     }
 }
