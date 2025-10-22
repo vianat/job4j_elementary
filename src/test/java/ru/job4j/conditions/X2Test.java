@@ -1,7 +1,8 @@
-package ru.job4j.math;
+package ru.job4j.conditions;
 
 import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Test;
+import ru.job4j.math.X2;
 
 class X2Test {
 

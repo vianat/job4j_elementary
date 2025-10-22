@@ -1,7 +1,6 @@
-package ru.job4j;
+package ru.job4j.conditions;
 
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.*;
 
 class TriangleAreaTest {
 
