@@ -9,7 +9,7 @@ public class ChessBoard {
         if (isValid(x1) && isValid(x2)
                 && isValid(y1) && isValid(y2)) {
             if (abs(x1 - x2) == abs(y1 - y2)) {
-                result = (abs(x1 - x2) + abs(y1 - y2)) / 2;
+                result = abs(x1 - x2);
             }
         }
         return result;
