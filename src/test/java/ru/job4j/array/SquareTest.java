@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class SquareTest {
     @Test
-    void whenBound3Then0_1_4() {
+    void whenBound3Then014() {
         int bound = 3;
         int[] result = Square.calculate(bound);
         int[] expected = new int[] {0, 1, 4};
@@ -13,7 +13,7 @@ class SquareTest {
     }
 
     @Test
-    void whenBound5Then0_1_4_9_16() {
+    void whenBound5Then014916() {
         int bound = 5;
         int[] result = Square.calculate(bound);
         int[] expected = new int[] {0, 1, 4, 9, 16};
